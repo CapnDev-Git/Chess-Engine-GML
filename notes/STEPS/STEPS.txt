@@ -1,0 +1,14 @@
+1) Determine if piece is clicked or board		-- DONE
+2) Get piece's color, position, price, symbol	-- DONE
+
+----------------------
+
+3) Define currently selected piece's available movement squares
+	DONE --> determine avsq w/ switch statement for every piece (=> argument dependant) every time same pattern
+	ON --> remove from available's impossible ones (on ally / outside board) => detect when enemy (detect possible take) ?
+	
+----------------------
+"
+4) Check if the current click is one of those available squares (knowing that you previously selected a piece)
+		--> if YES: move the piece to x, y of mouse / grid-based (use mods)
+		--> if NO: unselect the chess piece (reset var) => MAKE A GENERAL DEFAULT CASE TO GO TO LIKE EVENT USERS
